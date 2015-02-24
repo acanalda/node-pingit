@@ -38,7 +38,7 @@ int Pinger::ping(string target)
 		if (!hp)
 		{
 			cerr << "unknown host "<< target << endl;
-			return -1;
+			return -3;
 		}
 		to.sin_family = hp->h_addrtype;
 		bcopy(hp->h_addr, (caddr_t)&to.sin_addr, hp->h_length);
@@ -50,7 +50,7 @@ int Pinger::ping(string target)
 	if((packet = (u_char *)malloc((u_int)packlen)) == NULL)
 	{
 		cerr << "malloc error\n";
-		return -1;
+		return -2;
 	}
 
     // Used SOCK_DGRAM instead of SOCK_RAW. Raw sockets only available for superuser
