@@ -1,7 +1,7 @@
 {
   "name": "node-pingit",
   "version": "0.0.2",
-  "description": "A basic module for pinging servers",
+  "description": "A minimalistic nodeJS module for the Ping command",
   "main": "index.js",
   "keywords": [
     "ping",
@@ -9,7 +9,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/edmunfollen/pingit.git"
+    "url": "git://github.com/edmunfollen/node-pingit.git"
   },
   "author": "Edmun Follen <acanalda@gmail.com>",
   "dependencies": {
@@ -20,9 +20,9 @@
     "test": "./node_modules/.bin/mocha --reporter spec"
   },
   "type": "MIT",
-  "url": "https://github.com/edmunfollen/pingit/blob/master/LICENSE-MIT",
+  "url": "https://github.com/edmunfollen/node-pingit/blob/master/LICENSE-MIT",
   "bugs": {
-    "url": "https://github.com/edmunfollen/pingit/issues"
+    "url": "https://github.com/edmunfollen/node-pingit/issues"
   },
   "gypfile": true,
   "devDependencies": {
