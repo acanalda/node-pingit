@@ -1,0 +1,22 @@
+{
+  "name": "pingit",
+  "version": "0.0.1",
+  "description": "A basic module for pinging servers",
+  "main": "index.js",
+  "keywords": [
+    "ping",
+    "pingit"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/edmunfollen/pingit.git"
+  }
+  "dependencies": {
+    "bindings": "1.2.1",
+    "nan": "1.6.2"
+  },
+  "scripts": {
+    "test": "node addon.js"
+  },
+  "gypfile": true
+}
