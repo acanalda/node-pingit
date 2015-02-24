@@ -12,7 +12,7 @@ describe('#pingit', function() {
   });
 
   it('ping async', function(done) {
-    var miliseconds = pingit.pingAsync('www.google.com', function(err, miliseconds){
+    pingit.pingAsync('www.google.com', function(err, miliseconds){
       assert.equal(miliseconds>0, true);
 
       done();
