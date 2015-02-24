@@ -1,5 +1,5 @@
 # node-pingit
-Just a basic nodeJS module for executing the Ping command
+Just a minimalistic nodeJS module for executing the Ping command
  
 Installation
 ------------
