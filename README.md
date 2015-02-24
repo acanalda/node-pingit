@@ -5,7 +5,7 @@ Installation
 ------------
 
 ``` bash
-$ npm install pingit
+$ npm install node-pingit
 ```
 
 Async usage (recommended)
