@@ -1,6 +1,6 @@
 {
-  "name": "pingit",
-  "version": "0.0.1",
+  "name": "node-pingit",
+  "version": "0.0.2",
   "description": "A basic module for pinging servers",
   "main": "index.js",
   "keywords": [
