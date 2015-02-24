@@ -19,7 +19,8 @@
   "scripts": {
     "test": "./node_modules/.bin/mocha --reporter spec"
   },
-  "license": "BSD-2-Clause",
+  "type": "MIT",
+  "url": "https://github.com/edmunfollen/pingit/blob/master/LICENSE-MIT",
   "bugs": {
     "url": "https://github.com/edmunfollen/pingit/issues"
   },
