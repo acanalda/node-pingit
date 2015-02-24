@@ -1,4 +1,4 @@
-# pingit
+# node-pingit
 Just a basic nodeJS module for executing the Ping command
  
 Installation
@@ -12,7 +12,7 @@ Async usage (recommended)
 ---------
 
 ```js
-var pingit = require('pingit')
+var pingit = require('node-pingit')
 
 pingit.pingAsync('www.google.com', function(err, miliseconds){
   console.log('Async ping: '+miliseconds); 
@@ -23,7 +23,7 @@ Sync usage
 ---------
 
 ```js
-var pingit = require('pingit')
+var pingit = require('node-pingit')
 
 var miliseconds = pingit.ping('www.google.com');
 console.log('Sync ping: '+miliseconds); 
